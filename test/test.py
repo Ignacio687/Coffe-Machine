@@ -1,5 +1,5 @@
 import unittest
-from classCoffeeMachine import CoffeeMachine
+from main.coffeeMachine import *
 
 class CoffeMachine(unittest.TestCase):
 
@@ -51,5 +51,5 @@ class CoffeMachine(unittest.TestCase):
         self.assertEqual(machine.giveCoffee(0),'No more coffee')
         self.assertEqual(machine.giveCoffee(1),'No more coffee')
 
-if __name__=='__main__':
-    unittest.main()
+# if __name__=='__main__':
+#     unittest.main()
